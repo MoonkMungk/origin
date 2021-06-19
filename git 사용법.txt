@@ -1,0 +1,42 @@
+git bash here 클릭
+
+git init >> 로컬 저장소를 만듦
+
+git remote add origin https://github.com/MoonkMungk/portfolio.git >>> 연결
+
+ls > 파일 리스트
+
+git add filename >> 변경한/추가한 파일 add
+git add . >> 변경한/추가한 모든 파일 add
+
+git status >> 파일의 상황을 나타냄
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+초기에 아이디를 입력
+
+git commit -m '커밋 메시지' >> 커밋 메시지 입력
+
+git push origin master >> 원격저장소에 저장
+
+https://github.com/MoonkMungk 사이트 들어가서 
+Reposirories에서 업로드 한 파일 수정/설정/새로고침
+
+
+...or create new repository on the command line -->
+
+echo "# repository name" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/MoonkMungk/"repository name".git
+git push -u origin main
+
+
+...or push an exising repository from the command line -->
+
+git remote add origin https://github.com/MoonkMungk/"repository name".git
+git branch -M main
+git push -u origin main
